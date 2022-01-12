@@ -9,9 +9,7 @@
 	<version>0.4</version>
 	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
-	<name>cloudbuild-java-hello-world</name>
-	<gcpProjectId>ashrith-sandbox</gcpProjectId>
-	<artifactRepoName>test-docker-repo</artifactRepoName>
+	<name>hello-world-rest-api</name>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -70,7 +68,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>us-central1-docker.pkg.dev/${project.gcpProjectId}/${project.artifactRepoName}/${project.name}</repository>
+					<repository>us-central1-docker.pkg.dev/ashrith-sandbox/test-docker-repo/cloudbuild-java-hello-world</repository>
 					<tag>${project.version}</tag>
 					<skipDockerInfo>true</skipDockerInfo>
 				</configuration>
