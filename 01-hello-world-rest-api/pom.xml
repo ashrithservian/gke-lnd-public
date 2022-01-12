@@ -9,7 +9,7 @@
 	<version>0.6</version>
 	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
-	<name>hello-world-rest-api</name>
+	<name>cloudbuild-java-hello-world</name>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -60,7 +60,7 @@
 				<version>3.1.4</version>
 				<configuration>
 					<to>
-					<image>us-central1-docker.pkg.dev/ashrith-sandbox/test-docker-repo/cloudbuild-java-hello-world</image>
+					<image>us-central1-docker.pkg.dev/ashrith-sandbox/test-docker-repo/${project.name}:${project.version}</image>
 					</to>
 				</configuration>
 			</plugin>
