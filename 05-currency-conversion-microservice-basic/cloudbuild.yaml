@@ -1,0 +1,4 @@
+steps:
+- name: 'gcr.io/cloud-builders/mvn'
+  args: ['clean', 'install', 'jib:build']
+  dir: '05-currency-conversion-microservice-basic'
