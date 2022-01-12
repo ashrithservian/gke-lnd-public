@@ -3,6 +3,6 @@ steps:
   args: ['install']
   dir: '01-hello-world-rest-api'
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/ashrith-sandbox/cloudbuild-java-hello-world', '.']
+  args: ['build', '-t', 'us-central1-docker.pkg.dev/ashrith-sandbox/test-docker-repo/cloudbuild-java-hello-world', '.']
   dir: '01-hello-world-rest-api'
-images: ['gcr.io/ashrith-sandbox/cloudbuild-java-hello-world']
+images: ['us-central1-docker.pkg.dev/ashrith-sandbox/test-docker-repo/cloudbuild-java-hello-world']
